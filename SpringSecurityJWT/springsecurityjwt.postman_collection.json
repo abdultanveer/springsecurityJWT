@@ -33,8 +33,19 @@
 			"name": "New Request",
 			"request": {
 				"method": "GET",
-				"header": [],
-				"url": null
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYXZuZWV0dSIsImV4cCI6MTYyMDc1ODMyMywiaWF0IjoxNjIwNzIyMzIzfQ.cAzpmvpqbP7k0_PtWQFRJiSlOUWuaWgEU2AxMaOEVx8",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": "http://localhost:8080/hello"
 			},
 			"response": []
 		}
