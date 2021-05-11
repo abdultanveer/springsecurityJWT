@@ -1,4 +1,4 @@
-package com.example.demorest;
+package com.example.demorest.services;
 
 import java.util.ArrayList;
 
